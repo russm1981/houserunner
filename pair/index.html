@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><script src="../shared/move.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Connect – HouseRunner</title><meta name="theme-color" content="#0c0e12">
+<link rel="icon" href="../shared/brand/icon-192.png"><link rel="apple-touch-icon" href="../shared/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="../shared/base.css">
+<style>
+ .wrap { max-width: 560px; margin: 0 auto; padding: 28px 18px 50px; }
+ h1 { font-size: 26px; margin: 0 0 6px; } .code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 28px; letter-spacing: .08em; color: #fff; }
+ .card { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 18px; margin: 14px 0; }
+ .card p, .card li { color: #cdd5e1; } .btn { display: block; text-align: center; text-decoration: none; margin-top: 10px; }
+ .ok { color: var(--good); font-weight: 700; } .bad { color: var(--bad); }
+ a { color: var(--acc); }
+</style>
+</head>
+<body><div class="wrap">
+ <a class="hr-brand sm" href="../"><img src="../shared/brand/mark.svg" alt=""><span><span class="hr-name">House<span>Runner</span></span><span class="hr-tag">a family dashboard</span></span></a>
+ <h1>📺 Connect a screen or computer</h1>
+ <p>Code <span class="code" id="code">–</span></p>
+ <div id="box"></div>
+ <p style="color:var(--mute);font-size:13px">Your family’s private link is locked with this code before it leaves your phone – only the device showing the code can open it.</p>
+</div>
+<script src="../shared/pair.js"></script>
+<script>
+ (function () {
+   var m = /[#&]c=([^&#]+)/.exec(location.hash), code = FDPairSend.norm(m ? decodeURIComponent(m[1]) : '');
+   var $ = function (id) { return document.getElementById(id); };
+   $('code').textContent = code || '–';
+   var cfg = FDPairSend.saved();
+   if (!code) { $('box').innerHTML = '<div class="card"><p class="bad">No code here. Scan the QR code again.</p></div>'; return; }
+   if (cfg) {
+     // Say WHOSE dashboard this is, and ask whether the screen is in that home: helping someone else set up must not put
+     // your family on their screen.
+     $('box').innerHTML = '<div class="card"><h2 style="margin:0 0 10px">Connect this new device to <span id="fam">your family dashboard</span>?</h2>' +
+       '<p id="who" class="small" style="opacity:.75;margin:0 0 10px"></p>' +
+       '<p>Only say yes if the screen showing this code is in your home – it will show your family’s calendar, points, notes and photos.</p>' +
+       '<button class="btn" id="go">Yes – connect it</button><p id="st"></p>' +
+       '<button class="btn" id="no" style="background:#2a3140">No – it’s someone else’s</button></div><div id="other"></div>';
+     fetch(cfg.url + '?action=whose&code=' + encodeURIComponent(cfg.code), { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
+       var names = (d.people || []).filter(Boolean);
+       if (d.familyName) $('fam').textContent = 'the ' + d.familyName + ' family dashboard';
+       if (names.length) $('who').textContent = (d.familyName ? 'The ' + d.familyName + ' family: ' : 'Your family: ') + names.slice(0, 8).join(', ') + (names.length > 8 ? ' and others' : '');
+     }).catch(function () { /* fine */ });
+     $('go').onclick = function () {
+       var b = this; b.disabled = true; $('st').textContent = 'Sending…';
+       FDPairSend.send(code, cfg).then(function () { $('st').innerHTML = '<span class="ok">✔ Sent – it connects within a few seconds.</span>'; },
+         function (e) { b.disabled = false; $('st').innerHTML = '<span class="bad">' + e.message + '</span>'; });
+     };
+     $('no').onclick = function () {
+       $('other').innerHTML = '<div class="card"><p><b>Then they need their own dashboard.</b> On their computer or phone they go through setup (about 30 minutes) with their own Google account – it connects this screen at the end:</p>' +
+         '<a class="btn" href="../setup/guide/#pair=' + encodeURIComponent(code) + '">Start their setup</a>' +
+         '<p style="color:var(--mute);font-size:13px">If they’re already set up, they type the code into <b>their</b> Family Admin: More → Devices and Phones → Connect by code.</p></div>';
+     };
+   } else {
+     $('box').innerHTML = '<div class="card"><h2 style="margin-top:0">New to HouseRunner?</h2><p>Set up first – about 30 minutes, easiest on a computer, but a phone works. At the end it connects this screen for you.</p>' +
+       '<a class="btn" href="../setup/guide/#pair=' + encodeURIComponent(code) + '">Start setup</a></div>' +
+       '<div class="card"><h2 style="margin-top:0">Already set up?</h2><p>Open <b>Family Admin</b> on your phone → <b>More → Devices and Phones → Connect by code</b>, and type <b class="code" style="font-size:18px">' + code + '</b>.</p>' +
+       '<p style="color:var(--mute);font-size:13px">(Phones keep apps added to the home screen separate from the web browser, which is why this page can’t see it.)</p></div>';
+   }
+ })();
+</script>
+</body></html>

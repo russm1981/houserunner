@@ -1,0 +1,1203 @@
+[
+  {
+    "version": "2026.11.156",
+    "date": "2026-11-14",
+    "notes": [
+      "HouseRunner has its own web address: houserunner.app (houserunner.net goes there too). The screen, the phone apps, the Configurator, Help and the licence emails all use it now.",
+      "Nothing to do: the next time each screen, phone or computer opens the old address, it carries its connection across to houserunner.app by itself. Phones: if you’d added Family Admin or Family Calendar to your home screen, add them again from the new address so the icon opens it directly.",
+      "Your Google script follows the website to the new address by itself, and keeps updating as before."
+    ]
+  },
+  {
+    "version": "2026.11.155",
+    "date": "2026-11-14",
+    "notes": [
+      "The HouseRunner logo in the title bars now sits level with the name – the house rests on the same line as the letters, whatever font your computer uses – with a smaller gap between them."
+    ]
+  },
+  {
+    "version": "2026.11.154",
+    "date": "2026-11-14",
+    "notes": [
+      "The HouseRunner logo in the Configurator and setup wizard title bars is slightly bigger, sits closer to the name, and is centred on it."
+    ]
+  },
+  {
+    "version": "2026.11.153",
+    "date": "2026-11-14",
+    "notes": [
+      "Family Admin and Family Calendar now carry the HouseRunner brand, quietly: a small house-and-lines logo by the title at the top, and “HouseRunner – a family dashboard” in the small print (More in Family Admin, the ⚙ sheet in Family Calendar, and the screen where you first connect the app).",
+      "Nothing has changed on the dashboard screen."
+    ]
+  },
+  {
+    "version": "2026.11.152",
+    "date": "2026-11-14",
+    "notes": [
+      "The title bar at the top of the Configurator and the setup wizard now just says HouseRunner, with the logo – the word “Configurator” has gone from it.",
+      "The HouseRunner logo’s three coloured lines are longer and thicker, so they show up properly at small sizes.",
+      "Family Admin and Family Calendar have new app icons: the HouseRunner house and lines, with a blue cog for Admin and an amber calendar for Calendar. A phone that already has the apps on its home screen may keep the old icon until the app is removed and added again."
+    ]
+  },
+  {
+    "version": "2026.11.151",
+    "date": "2026-11-14",
+    "notes": [
+      "Fixed: on the Configurator, the new HouseRunner logo and name in the title bar were stacked on top of each other and cut off (only “House” showed). They are back on one line: logo, HouseRunner Configurator."
+    ]
+  },
+  {
+    "version": "2026.11.150",
+    "date": "2026-11-14",
+    "notes": [
+      "Setup wizard: making your Google Sheet and switching it on are now one continuous set of steps, all done in the new tab. You no longer come back to the wizard in between – “Carry on with setup” in your Sheet picks up straight after, already connected.",
+      "Your new Sheet renames itself from “Copy of Family Dashboard” to “Family Dashboard” the first time it’s set up."
+    ]
+  },
+  {
+    "version": "2026.11.149",
+    "date": "2026-11-14",
+    "notes": [
+      "The website has a new name and logo: HouseRunner – a family dashboard. It is on the home page, the Configurator, the setup wizard, Help, What’s new and the other pages, with a new icon in the browser tab.",
+      "On the screen, the status panel (tap the version number) now shows the HouseRunner name and logo. Nothing else on the screen has changed.",
+      "Some names stay as they were for now, because they live in your Google Sheet and emails: the Sheet’s “Family Dashboard” menu, the “Your Family Dashboard links” email, the “Start Family Dashboard” file, and the Family Admin and Family Calendar apps."
+    ]
+  },
+  {
+    "version": "2026.11.148",
+    "date": "2026-11-14",
+    "notes": [
+      "If a browser is set to block websites from saving anything (“Block all cookies”, a private window, or clearing site data every time), the Configurator, the wizard and the phone apps now say so in a red bar at the top, with how to fix it. Before, they just quietly forgot the connection to your dashboard every time the page was reloaded."
+    ]
+  },
+  {
+    "version": "2026.11.147",
+    "date": "2026-11-14",
+    "notes": [
+      "A short, plain-English licence agreement is now on the website (licence.html), linked from the home page, the Software Licence page and the wizard’s licence step.",
+      "The licence email now comes with the licence agreement attached as a PDF, with a link to the online copy."
+    ]
+  },
+  {
+    "version": "2026.11.146",
+    "date": "2026-11-14",
+    "notes": [
+      "Your country now fills in how dates work: the day weeks start on (Monday or Sunday) and how dates are written (14 Nov or Nov 14), as well as the currency and time zone. You can change any of them in Advanced → Locations & home, or in the wizard’s family step.",
+      "The calendars on the screen and in the Family Calendar app start their weeks on your chosen day, and dates everywhere follow your chosen order.",
+      "News: a new “My country’s news” choice (the default) picks a national feed for your country, and there are international feeds to choose from – Guardian World, Al Jazeera, NPR, CBC, ABC Australia, RTÉ and DW."
+    ]
+  },
+  {
+    "version": "2026.11.145",
+    "date": "2026-11-14",
+    "notes": [
+      "“PE kit” is now “sports kit” in the examples and the starter reminders (PE is a British term)"
+    ]
+  },
+  {
+    "version": "2026.11.144",
+    "date": "2026-11-14",
+    "notes": [
+      "Works outside the UK: choose your Country and Time zone (in the setup wizard’s Your family step, and Configurator → Advanced → Locations & home). They set the time zone for everything, public holidays for your country, map searches, °F and mph in the USA (km/h outside the UK and USA), and the cash-in currency",
+      "Bins: outside the UK, bin days are set up by hand (or from a council calendar link) – finding them from your council is UK-only",
+      "Trains and Bus stop are labelled “UK”; outside the UK the wizard skips their keys and hides those widgets"
+    ]
+  },
+  {
+    "version": "2026.11.143",
+    "date": "2026-11-14",
+    "notes": [
+      "Generic examples everywhere instead of our own family: the Smith family, with Adam & Eve and the children Oliver, Amelia and Noah; home London, SW1A 0AA; traffic to Heathrow and Gatwick airports; trains London Victoria → Gatwick Airport; BBC London instead of Bristol and Gloucestershire",
+      "The children’s screen and the Sheet’s tab are called “Children” (an existing “Boys” tab is renamed automatically)"
+    ]
+  },
+  {
+    "version": "2026.11.142",
+    "date": "2026-11-14",
+    "notes": [
+      "Notes: the handwriting on tablets, phones, Macs and the Raspberry Pi now matches the Corsair – Windows keeps Segoe Print, and other devices use a similar hand-drawn font that comes with the dashboard (instead of whatever “cursive” font the device had)"
+    ]
+  },
+  {
+    "version": "2026.11.141",
+    "date": "2026-11-14",
+    "notes": [
+      "Notes on the website: the post-its sit side by side (no overlap); on the screen they still overlap a little",
+      "Notes: eight post-it colours (yellow, pink, light blue, light green, light purple, peach, mint, periwinkle) – each page of notes on the screen has its own colours"
+    ]
+  },
+  {
+    "version": "2026.11.140",
+    "date": "2026-11-14",
+    "notes": [
+      "Fixes Rewards → Daily to-dos, which showed Manual adjustments instead (since 2026.11.138)",
+      "Configurator house style everywhere: every input and button the same size, the same text sizes and spacing on every page, and Tasks, Daily to-dos and Reminders now look exactly alike – plain rows the same height, the same gaps, the same column headings and ✕",
+      "Today & tomorrow on the screen: a little more space between entries, with slightly smaller text"
+    ]
+  },
+  {
+    "version": "2026.11.139",
+    "date": "2026-11-14",
+    "notes": [
+      "A backup of your private links: the setup wizard emails them to your Google account (“Your Family Dashboard links – keep this email”) as soon as it connects, and again whenever the access code changes. Devices and Phones has an “Email me my links” button. If a computer or phone forgets your family, open the link in that email",
+      "The connect screen now points to that email if there’s no phone with Family Admin to hand, and the website asks the browser to keep its storage so it’s less likely to forget your family",
+      "Setup wizard: “What you need before you start” now includes your phone (for the Family Admin app – it’s how you reconnect the website), and the phones step says so too",
+      "Setup wizard: the privacy notice is its own step after Welcome",
+      "Setup wizard: the Configurator’s menu bar is shown across the top, and the pages are in the Family page house style (big title and headings, more space)"
+    ]
+  },
+  {
+    "version": "2026.11.138",
+    "date": "2026-11-14",
+    "notes": [
+      "Tasks: edited right on the page like the Family page – a row a task (order, task, points, for who, repeats, on/paused, ✕), + Add a task, then Save tasks and Undo changes",
+      "Notes: square post-its like the screen’s, up to six in a row on a computer, with bigger writing and slightly overlapping, as if stuck on top of each other. The screen’s Notes widget has bigger writing and overlaps a little too",
+      "Shopping and to-do lists: the list’s name as the big heading, a roomier add row and bigger rows"
+    ]
+  },
+  {
+    "version": "2026.11.137",
+    "date": "2026-11-14",
+    "notes": [
+      "“Screen & sleep” is now “Screen Sleep”, laid out like the Family page: how it works, Go to sleep after (minutes), What the sleeping screen shows (a small clock or nothing), Night hours (on/off, from and to), the Windows note, then Save and Undo",
+      "My data: “How your data is kept” at the top, and Reconfigure your existing setup is a menu like “Do one step from the Setup wizard again” (now with Your family and Your calendar)",
+      "Devices and Phones: tidied into the Family page style – how it works, Your screens, Connect a display, Add a phone (choose the app, scan, then install on iPhone or Android), This computer. Also fixes the screen and start-file addresses shown on the computer",
+      "Family Calendar Year view: taller days that show the entries’ names, so you can read them"
+    ]
+  },
+  {
+    "version": "2026.11.136",
+    "date": "2026-11-14",
+    "notes": [
+      "Buttons are consistent everywhere: every Save is green, and “+ Add …” buttons (add a person, task, to-do, reminder, group, bin…) and Start buttons are blue – in the Configurator, the phone apps, the setup wizard and the licence portal",
+      "Widget settings (Screens → click a widget): in the Family page style – a big title, “On the screen” and the widget’s own settings each in a box with a big heading, and more space",
+      "Lists you add rows to – daily to-dos, reminders, tasks, reward rules – now all look like the Family page: a box with a big heading, plain rows, “+ Add a …” underneath, then Save (green) and Undo changes side by side",
+      "Reminders is back inside Rewards; Reminders under Apps (and on Home) takes you to Rewards → Reminders"
+    ]
+  },
+  {
+    "version": "2026.11.135",
+    "date": "2026-11-14",
+    "notes": [
+      "Configurator: the section headings between boxes (e.g. on Other widgets and the Calendar page) are big and clear like the Family page, instead of small capitals"
+    ]
+  },
+  {
+    "version": "2026.11.134",
+    "date": "2026-11-14",
+    "notes": [
+      "Screens (widget screens): simpler – the screen’s title, the picture of the screen, then a bigger ADD A WIDGET heading, the ✋ how-to, the Reward Widget for Child on its own row, a line, then all the other widgets",
+      "The child’s rewards card is now called the Reward Widget for Child, everywhere"
+    ]
+  },
+  {
+    "version": "2026.11.133",
+    "date": "2026-11-14",
+    "notes": [
+      "Screens: a calendar screen can be deleted like a widget screen (✕ in the list, or the red Delete this screen button) – even the only one. The Family Calendar app and the calendar widgets carry on"
+    ]
+  },
+  {
+    "version": "2026.11.132",
+    "date": "2026-11-14",
+    "notes": [
+      "Widgets renamed: “Where is everyone?” is now the Weasley Clock, and the NASA picture of the day is now NASA Daily Picture – in the widget list, the settings, the screen, the keys pages, the setup wizard, the health check and Help"
+    ]
+  },
+  {
+    "version": "2026.11.131",
+    "date": "2026-11-14",
+    "notes": [
+      "Configurator Home: How it works is at the top; the Google script version and licence line is gone; a “Setup” heading before the two parts; the boxes are just “Setup” and “Apps”",
+      "“Setup” as one word wherever it’s a title (the menu bar, Home, the Rewards menu, Help)"
+    ]
+  },
+  {
+    "version": "2026.11.130",
+    "date": "2026-11-14",
+    "notes": [
+      "Screens: deleting a screen deletes the widgets on it too (it says how many and asks first) – no need to remove them one by one",
+      "Screens: in the list on the left, a bigger ✕ to delete, with a gap after ▲ ▼; and a red “Delete this screen” button at the top of each screen",
+      "Family Calendar on a computer (and the Configurator’s Calendar tab): a Year view – a wall planner with a row for each month; click a day to open that month",
+      "Children’s points cards: no scroll bars – they scroll by touch, with a small ⌄⌄ / ⌃⌃ tab when there’s more below or above"
+    ]
+  },
+  {
+    "version": "2026.11.129",
+    "date": "2026-11-14",
+    "notes": [
+      "Advanced menu: “External data keys”"
+    ]
+  },
+  {
+    "version": "2026.11.128",
+    "date": "2026-11-14",
+    "notes": [
+      "Setup wizard page: the box is called “Start full wizard”, the first button says “(setting up for the first time)”, and the note under the buttons is simpler, with more space above it"
+    ]
+  },
+  {
+    "version": "2026.11.127",
+    "date": "2026-11-14",
+    "notes": [
+      "Setup wizard: Updates are now part of the Check everything step",
+      "Setup wizard: a final Finish step – a simple list of every step with a tick, and anything that still needs doing highlighted with a button to go back to it"
+    ]
+  },
+  {
+    "version": "2026.11.126",
+    "date": "2026-11-14",
+    "notes": [
+      "Setup wizard: Family and Calendar are separate steps, laid out like the Configurator – Your family (name, home address, each person with their colour and ⭐ Rewards) and Your calendar (the same colour coding and tidy-up as Screens → calendar page)",
+      "Setup wizard: Connect your display (XENEON EDGE on Windows, XENEON EDGE on a Raspberry Pi, a tablet, or a PC browser) and Connect your phones are separate steps. The phones step has a tab for each app saying what it is, the QR code, then how to install it and add it to the home screen on iPhone and Android",
+      "Setup wizard: Free API keys go one service at a time – Save and continue or Skip moves to the next, with your progress across the top and a back button"
+    ]
+  },
+  {
+    "version": "2026.11.125",
+    "date": "2026-11-14",
+    "notes": [
+      "Setup wizard: the welcome page is simpler – a yellow “What you need before you start” box (just a Google account, with a link to make one), no list of steps (each step explains itself), and “What you’ll end up with” full width",
+      "Setup wizard: no licence key needed to start (14-day free trial), and a “No screen yet – use this computer” option that opens the dashboard in another tab",
+      "Setup wizard: the steps are numbered in order"
+    ]
+  },
+  {
+    "version": "2026.11.124",
+    "date": "2026-11-14",
+    "notes": [
+      "Setup wizard page: the “Set up the calendar” box is now in “Do one step from the Setup wizard again”, with the wizard’s Family & calendar step next to it"
+    ]
+  },
+  {
+    "version": "2026.11.123",
+    "date": "2026-11-13",
+    "notes": [
+      "Setup wizard page: the second button is blue too, and says “Rerun the wizard to reconfigure the current Smith family data” (with your family name)"
+    ]
+  },
+  {
+    "version": "2026.11.122",
+    "date": "2026-11-13",
+    "notes": [
+      "Reminders: a “Clear expired reminders” button deletes every one-date reminder whose date has passed (it lists them and asks first; weekly ones are kept) – on the computer and in the phone app"
+    ]
+  },
+  {
+    "version": "2026.11.121",
+    "date": "2026-11-13",
+    "notes": [
+      "Configurator: Reminders is its own page under Apps (and on the Home page). Reminders in the Rewards menu takes you there"
+    ]
+  },
+  {
+    "version": "2026.11.120",
+    "date": "2026-11-13",
+    "notes": [
+      "Colour coding: moving someone in “People in the family” back to Individually gives them one of Google’s colours that isn’t already in use, instead of keeping their group’s colour"
+    ]
+  },
+  {
+    "version": "2026.11.119",
+    "date": "2026-11-13",
+    "notes": [
+      "Colour coding: the line on a “Line” colour square is thinner"
+    ]
+  },
+  {
+    "version": "2026.11.118",
+    "date": "2026-11-13",
+    "notes": [
+      "Screens: the buttons down the left of the calendar and children’s pictures now work like on the widget screens – click one to go to that screen",
+      "Screens: the version number on the pictures is grey, not orange"
+    ]
+  },
+  {
+    "version": "2026.11.117",
+    "date": "2026-11-13",
+    "notes": [
+      "Widget row editors (e.g. traffic destinations): the days and times sit on one row, without the “school days” and “No times = all day” explanations"
+    ]
+  },
+  {
+    "version": "2026.11.116",
+    "date": "2026-11-13",
+    "notes": [
+      "External data (API) keys: a separate box for each service (TomTom, National Rail, TransportAPI, NASA, Spotify) showing whether it's added or needed, what it's for, and – when it's empty – the steps to get a key",
+      "Software Licence (renamed from Licence): an explanation of what a licence is, and the details – who it's licensed to, the key, how many screens and how many are in use, valid until, activated and last checked",
+      "The weak access code warning is red, in a red box",
+      "Port my data to a different Google account: the new account is emailed the steps, including what happens to the screens and phones (they switch over by themselves)",
+      "My data: the four Reconfigure links are indented under their heading",
+      "Devices is now called Devices and Phones"
+    ]
+  },
+  {
+    "version": "2026.11.115",
+    "date": "2026-11-13",
+    "notes": [
+      "Advanced: About these settings has one bullet for each part (Screen & sleep, Licence and Software updates were run together), with more space between them"
+    ]
+  },
+  {
+    "version": "2026.11.114",
+    "date": "2026-11-13",
+    "notes": [
+      "Reminders: the switch-time note says “with a preview of tomorrow”"
+    ]
+  },
+  {
+    "version": "2026.11.113",
+    "date": "2026-11-13",
+    "notes": [
+      "Reminders on a date: a button showing the date in words (“Fri, 4 December 2026 📅”) – press it and a calendar opens to pick the date, instead of typing dd/mm/yyyy"
+    ]
+  },
+  {
+    "version": "2026.11.112",
+    "date": "2026-11-13",
+    "notes": [
+      "Daily to-dos and reminders: each one on a single line with its day buttons (no “school days” note), with a little more height and space between them"
+    ]
+  },
+  {
+    "version": "2026.11.111",
+    "date": "2026-11-13",
+    "notes": [
+      "Rewards → Tasks: + New task is under the list",
+      "“Manual edits” is now “Manual adjustments”"
+    ]
+  },
+  {
+    "version": "2026.11.110",
+    "date": "2026-11-13",
+    "notes": [
+      "Configurator: explanations are spaced out – more room between paragraphs and between bullet points"
+    ]
+  },
+  {
+    "version": "2026.11.109",
+    "date": "2026-11-13",
+    "notes": [
+      "Family: + Add a person is a smaller button straight under the list, then a gap and two notes – what ticking ⭐ Rewards does, and what renaming or taking someone out keeps – then Save the family (left) and Undo changes (right)"
+    ]
+  },
+  {
+    "version": "2026.11.108",
+    "date": "2026-11-13",
+    "notes": [
+      "Family: Save the family is on the left and Undo changes on the right"
+    ]
+  },
+  {
+    "version": "2026.11.107",
+    "date": "2026-11-13",
+    "notes": [
+      "Screens: on the tablet view, a widget screen’s two parts are side by side again (there’s room now the screen picture is full width)"
+    ]
+  },
+  {
+    "version": "2026.11.106",
+    "date": "2026-11-13",
+    "notes": [
+      "Tidy up your Google calendar: dates read “14-11-2026 @ 12:00”",
+      "It now lists only what the calendar can’t show properly – no category, or a title too long. Events like “Oliver – Drums” are fine (they show as “Drums (Oliver)” in Oliver’s colour) and aren’t listed, unless you ask to list them too, to give them their colour in Google Calendar as well"
+    ]
+  },
+  {
+    "version": "2026.11.105",
+    "date": "2026-11-13",
+    "notes": [
+      "Colour coding: the colour chooser offers just Google Calendar’s own 11 colours (hover for their names), and each category and group shows in its Google colour",
+      "People in a group (or in Family) show in that group’s colour; only someone shown individually has a colour of their own to choose"
+    ]
+  },
+  {
+    "version": "2026.11.104",
+    "date": "2026-11-13",
+    "notes": [
+      "Setup wizard page: “Do one step from the Setup wizard again” – Get free keys for external data sources, Add licence key (links the software to your original purchase), Check everything (diagnostics)",
+      "Setup wizard page: you can run the full wizard to change an existing configuration – a new button runs it on this dashboard",
+      "Run on a dashboard that’s already set up, the wizard first asks: change the existing set-up, or clear all the settings and start again – which first saves a backup copy of your Google Sheet in your Google Drive (your licence key and access code are kept, so everything stays connected)"
+    ]
+  },
+  {
+    "version": "2026.11.103",
+    "date": "2026-11-13",
+    "notes": [
+      "Connecting a new device from a phone (scanning its QR code): it now asks “Connect this new device to the Smith family dashboard?” – with your family’s name – and Yes or No",
+      "Every “Family Admin → Settings → …” in the help and messages now points to where it is now (More, or the Configurator’s Advanced)"
+    ]
+  },
+  {
+    "version": "2026.11.102",
+    "date": "2026-11-13",
+    "notes": [
+      "Colour coding: plain radio buttons for Show / Hide / Show as Other; the colour square is empty when hidden and Other’s grey when shown as Other; a line is a straight bar along the bottom of the square",
+      "Ticking more than two general categories as lines now shows a big red warning (and Save waits) instead of stopping you",
+      "Other category: clearer wording and spacing, with the tick box lined up under it"
+    ]
+  },
+  {
+    "version": "2026.11.101",
+    "date": "2026-11-13",
+    "notes": [
+      "Family Admin app: turn the phone sideways on the Calendar tab and the calendar fills the screen (turn it upright again for the other tabs). On Android the other tabs stay upright; on an iPhone, turned sideways, they ask you to turn the phone upright",
+      "Family Calendar app: turns sideways too, with a compact bar at the top so the month has the room"
+    ]
+  },
+  {
+    "version": "2026.11.100",
+    "date": "2026-11-13",
+    "notes": [
+      "Colour coding: each general category’s How to display is three buttons side by side – Show, Hide, Show as Other (was “Group in Other”: on the calendar in grey, as Other on the key, so it doesn’t use up a colour)"
+    ]
+  },
+  {
+    "version": "2026.11.99",
+    "date": "2026-11-13",
+    "notes": [
+      "Colour coding: general categories have one “+ Add another” button (no suggestions); a line shows as a thin bar along the bottom of the colour square; the last column is How to display – Show, Hide or Group in Other (explained underneath)",
+      "Family groups now come before the people, with what they’re for – just a name and a colour (they’re always shown)",
+      "People: How to display – Individually, In Family, In Boys group…, or Hide",
+      "Other: a grey square, what it holds, and one tick box to display it or not"
+    ]
+  },
+  {
+    "version": "2026.11.98",
+    "date": "2026-11-13",
+    "notes": [
+      "Licence server 2026.11.17: the menu is in two groups – Licences (Overview, Licences, Issue keys, Import CSV) and Support (Feedback & requests, Diagnostics) – with Settings as a ⚙",
+      "Licence server settings: just the email to buyers, the support key and the admin password"
+    ]
+  },
+  {
+    "version": "2026.11.97",
+    "date": "2026-11-13",
+    "notes": [
+      "Screens: a 🗑 by each screen in the list on the left deletes it (a widget screen, if there's another, or a second calendar page) – widgets taken off it earlier go with it",
+      "The title bar’s groups say just Set up and Apps",
+      "While a change is being saved to Google: an hourglass and “⏳ Saving to Google…”, and nothing else can be changed until it’s saved",
+      "No more “No reply” messages when you come back to the window: background refreshes wait up to a minute and fail quietly (the dot goes red and tries again); saves also wait up to a minute",
+      "Quicker: the admin data no longer asks Google Tasks every time (kept for two minutes)"
+    ]
+  },
+  {
+    "version": "2026.11.96",
+    "date": "2026-11-13",
+    "notes": [
+      "Screens: a widget screen now looks like the calendar page – the instructions under its title, then the screen, as wide as the page, then the bin, then the widgets to add underneath (drag one up onto the screen)",
+      "Screens: only a child’s rewards card is in a list of its own; the Reminders widget is with the others",
+      "The menu in the screen pictures is drawn as on the screen: grey icons and names (no names on a tablet), the calendar icon with today’s date, and the screen you’re on in blue"
+    ]
+  },
+  {
+    "version": "2026.11.95",
+    "date": "2026-11-13",
+    "notes": [
+      "Family Admin app: the buttons along the bottom are now Calendar, Notes, Lists, Rewards, Apps (was Widgets) and More – and it opens on Calendar",
+      "More: the Configurator box has its own heading, Advanced"
+    ]
+  },
+  {
+    "version": "2026.11.94",
+    "date": "2026-11-13",
+    "notes": [
+      "Calendar page: Categories is now Colour coding – simpler, with clear headings, and a box at the top saying how many of the 10 colours you’re using (in red, and Save switched off, if it’s more than 10)",
+      "General categories and family groups: one row each – name, colour (as a line, the colour is a bar along the bottom of its square), Line?, and Show? – Show, Group in Other or Hide",
+      "People in the family: each person’s colour, and Display – individually, in Family, in one of your groups, or hidden. No more dragging names into groups",
+      "Other can be shown or hidden. Someone in a group that’s put in Other now shows as Other, not as Family"
+    ]
+  },
+  {
+    "version": "2026.11.93",
+    "date": "2026-11-13",
+    "notes": [
+      "Calendar tidy-up: Apply now works through the calendar a few events at a time, so it no longer stops with “No reply”; a tick box at the top ticks or unticks them all; Apply is on the left and Close on the right",
+      "Calendar page: the picture underneath is drawn in the view it opens on – 3 months, 3 months (scroll), Month or Week – and changes as you change it",
+      "Adding to the calendar on the screen: + Add, tap the day, and a box opens – what it is, all day (until another day) or at a time, the category and notes",
+      "The dot by the title is always round; hover or tap it to see why it’s red, and it tries again by itself",
+      "Every device can be disconnected – the screen (tap the version), the phone (More → Disconnect this phone), the calendar app and the Configurator (Home) – and goes back to “connect to a dashboard”",
+      "Everywhere says which family: “the Smith family dashboard (Oliver, Amelia…)”"
+    ]
+  },
+  {
+    "version": "2026.11.92",
+    "date": "2026-11-13",
+    "notes": [
+      "Configurator: 💬 Feedback by the title – send a support request (with a diagnostics report), a feature request or feedback, and see support’s replies and where each one is up to",
+      "Help: five topics to choose from – Getting started, Screens and widgets, Calendar and rewards, Troubleshooting, Your data and account – plus Ask for help; the menu on the left opens each one",
+      "The website uses the full width of the screen (as wide as the title bar), and still fits smaller screens",
+      "Screens: the preview’s menu is exactly as on the screen – every button, the microphone and its dot, and the version",
+      "Traffic: each destination has a name and an address or postcode (checked when you save), and can show all the time or only on some days and between two times",
+      "No more typing “Name | …” lines: destinations, the clock’s other places, the Weasley clock’s people and places and the bins’ repeating schedule are rows of boxes",
+      "Family Admin app: Rewards (every part, including manual edits), Calendar, Notes, Lists, Widgets – and More, with Help, Feedback and support, About & diagnostics and the phone’s settings",
+      "Licence server 2026.11.16: a Feedback tab for support requests, feature requests and feedback, with a status for each and a reply the family sees"
+    ]
+  },
+  {
+    "version": "2026.11.91",
+    "date": "2026-11-13",
+    "notes": [
+      "Calendar page: uses the full width (no empty column on the right)",
+      "“Line up days of the week in the 3-month views” – tick or untick it and the picture underneath shows the difference straight away",
+      "Categories, much simpler, and the same on every calendar page: one row each – name, colour, as a line, shown, and how it will look. General categories first, then the people ones (Family, then your groups with their people underneath, then anyone not in a group)",
+      "A category that isn’t shown goes in Other; Other itself can now be switched off. The separate key editor has gone – the key is made from what’s shown",
+      "The list of which colour to pick in Google Calendar has gone"
+    ]
+  },
+  {
+    "version": "2026.11.90",
+    "date": "2026-11-13",
+    "notes": [
+      "The time the screen switches to tomorrow’s reminders is now set on the Reminders page, under the reminders (it’s saved with them), not in Reward rules"
+    ]
+  },
+  {
+    "version": "2026.11.89",
+    "date": "2026-11-13",
+    "notes": [
+      "The website is now the Family Dashboard Configurator, with a little more room for the title; Help is a button by the title",
+      "Home: two green boxes (new to Family Dashboard → the Setup wizard; start the setup wizard for a new family), then How it works, then the two parts – 1 · Set up and 2 · Apps",
+      "Setup wizard: Set up the calendar now comes before doing one step again",
+      "Screens: the preview shows the screen’s menu down the left (click a button to go to that screen, or drop a widget on it); on a tablet the parts of a screen are one above the other, each with its own menu button",
+      "Screens: Add a widget is in two columns, with the rewards ones (a child’s card, everyone’s reminders) in a list of their own",
+      "Calendar page: bigger title, and just three settings above the picture – which Google Calendar to link to (new events go in the same one), what it opens on, and lining up weekdays"
+    ]
+  },
+  {
+    "version": "2026.11.88",
+    "date": "2026-11-13",
+    "notes": [
+      "New setting in Rewards → Reward rules: the time the screen switches to tomorrow’s reminders (5pm unless you change it)",
+      "New widget: Reminders (rewards) – every child’s reminders together, half or full height, so you can put them on the Home screen. Today’s, then tomorrow’s from the switch time; full height shows both. Tap a child for their week"
+    ]
+  },
+  {
+    "version": "2026.11.87",
+    "date": "2026-11-13",
+    "notes": [
+      "Saving is safer: pressing Save locks that part of the page (⏳ Saving…) until it has saved, so you can’t get ahead of it – and if a save fails, your changes stay on the page",
+      "Changes you haven’t saved yet are never wiped by the page refreshing in the background (coming back to the window, ↻, or another save finishing); leaving the page asks first",
+      "Daily to-dos and reminders save faster",
+      "Diagnostics: the button says it’s working while the report is made"
+    ]
+  },
+  {
+    "version": "2026.11.86",
+    "date": "2026-11-13",
+    "notes": [
+      "Holiday countdown settings: tick the calendar categories to count down to, instead of typing their names",
+      "Holiday countdown: your own dates are now a list – a name, a date picker and an “every year” tick box for each, with + Add a date"
+    ]
+  },
+  {
+    "version": "2026.11.85",
+    "date": "2026-11-13",
+    "notes": [
+      "Fixed: the calendar’s categories and key had gone missing from the calendar page in Screens",
+      "Fixed: setting up a brand-new family’s Google Sheet could fail at the calendar categories",
+      "The Setup website is now the Family Dashboard configurator: Home and Help, then Set up (Setup wizard, Screens, Family, Rewards, Advanced), then the Apps. The title stays the same; each page has its own heading",
+      "Home: your dashboard’s status, the three parts explained with buttons, and a pointer to the Setup wizard",
+      "Family: a family name (e.g. Smith) – “The Smith family (Oliver, Amelia, Noah, Adam, Eve)”",
+      "Daily to-dos (was morning to-dos): daily on the days you pick, or weekly – stays ticked until it resets on the day you choose (e.g. TTRS, Numbots, drums, resetting on Saturday)",
+      "Rewards: clearer menu – Tasks, Daily to-dos, Reminders, Reward rules, Manual edits; a child’s widget points you to the Rewards tab",
+      "Advanced → Software updates: whether each part is up to date (the application held within Google, the dashboard screen, the website and apps), what’s new in the latest version, and the full version history",
+      "Bigger, clearer headings and text throughout the website"
+    ]
+  },
+  {
+    "version": "2026.11.84",
+    "date": "2026-11-13",
+    "notes": [
+      "Fixed: a widget could end up set to show “00:00 until 00:00” and disappear – midnight is always the end of the day now, and a widget like that shows all the time",
+      "When to show: “Always”, or “Only on some days or at some times…”",
+      "Morning to-dos: For who from a list, the days as buttons, and arrows to put them in order (no order numbers)",
+      "Reminders: For who from a list, and “Every week on…” (day buttons) or “On a date…” (a date picker – shown as e.g. Wed, 23 December 2026)",
+      "Rules: penalty buttons you add and remove – no commas",
+      "Rewards → Manual edits: add or take away points, override the balance, see the statement – with each child’s card underneath",
+      "Calendar set-up: how many categories you can have up front, how to drag people into groups, and a picture of “as a line”",
+      "My data: “Reconfigure your existing setup” with four clear choices, “Port my data to a different Google account”, the access code explained; the apps’ web address is no longer a setting"
+    ]
+  },
+  {
+    "version": "2026.11.83",
+    "date": "2026-11-13",
+    "notes": [
+      "Calendar categories, simpler: Family first, then your own groups (drag people in), then general categories – each with a colour you pick from a palette (or any colour). The Google Calendar colours are worked out for you; “Which colour to pick in Google Calendar” lists them",
+      "The calendar key: “as a line” is a tick box",
+      "Rewards and Advanced have a menu down the left – the first item explains the page, and each item opens on the right. No more clicking through pages",
+      "Morning to-dos and reminders: one compact line each, with the column names at the top"
+    ]
+  },
+  {
+    "version": "2026.11.82",
+    "date": "2026-11-13",
+    "notes": [
+      "Calendar categories now use Google Calendar’s own event colours (on your main calendar): pick the colour on an event in Google Calendar or Gmail and it lands in that category. Up to 10 categories – family groups and general ones",
+      "Events for one person: Graphite, with their name in brackets at the end – “Drums (Oliver)”. They show in that person’s colour, their group’s, or Family’s",
+      "Setup → Screens → a calendar page: the categories (drag people into groups), and that page’s own key – up to 9 plus Other, up to two shown as lines under each day, or hidden",
+      "“Tidy up your Google calendar”: lists events in the old “Oliver – Drums” form, with no category or with titles too long, and fixes the ones you tick",
+      "Adding an event: pick General, a group or one person",
+      "Picking the Google calendar for a page from a list",
+      "Family: just the people, their colours and ⭐ Rewards"
+    ]
+  },
+  {
+    "version": "2026.11.81",
+    "date": "2026-11-13",
+    "notes": [
+      "The Setup website, reorganised: Set up (First-time setup · Screens · Family · Rewards · Advanced) · Help · Apps (Calendar · Notes · Lists · Widgets)",
+      "Screens & widgets: a “How this works” page at the top of the screens list; at most 6 screens",
+      "Family: who’s in the family (up to 10), their colours, and ⭐ Rewards – with an explainer",
+      "Rewards: everything on one page – tasks, morning to-dos, reminders, rules, changing a child’s points by hand (add, take away, set the balance, statement) and each child’s card",
+      "Advanced: Settings (home & places, data keys, system) · My data · My devices · About & diagnostics",
+      "Calendar and Help open inside the website; with more than one calendar page you can switch between them",
+      "“Points” is now “Rewards”"
+    ]
+  },
+  {
+    "version": "2026.11.80",
+    "date": "2026-11-13",
+    "notes": [
+      "Family tab in three parts: Family links and apps · Set up children’s points, tasks and reminders (Set up tasks, morning to-dos, reminders, points rules – each opens on its own) · Each child as they’ll show on the dashboard",
+      "Morning to-dos and reminders: one line each on a computer",
+      "The family’s Google calendars are set on the calendar page in Screen layout (not in Reconfigure → Family)"
+    ]
+  },
+  {
+    "version": "2026.11.79",
+    "date": "2026-11-13",
+    "notes": [
+      "Setup → Screen layout: a calendar page’s settings sit under its picture – which Google calendars it shows, where new events go, what it opens on, lining up weekdays",
+      "You can have more than one calendar page, each showing different Google calendars (add one with “Add a screen” → Calendar)",
+      "Widgets tab: the children’s points widgets aren’t listed (they’re on the Family tab)"
+    ]
+  },
+  {
+    "version": "2026.11.78",
+    "date": "2026-11-13",
+    "notes": [
+      "Setup → Family: four buttons at the top – Family Calendar (opens in a new tab), Today & tomorrow, Where is everyone and Reconfigure the family – then the children side by side with everything showing",
+      "Setup: the tabs are in two groups, “Set up” and “Everyday”",
+      "The holiday countdown’s settings are under Widgets",
+      "Holiday countdown: clearer help for “Your own dates” – one per line as name | date, e.g. Orlando | 3/4/2027, or Christmas | 25 Dec (no year) for one that comes round every year"
+    ]
+  },
+  {
+    "version": "2026.11.77",
+    "date": "2026-11-13",
+    "notes": [
+      "Setup → Screen layout: clicking a widget shows how it appears (height, show, when to show, remove) on the left and its own settings on the right, saved together – no page picker (drag it instead)",
+      "A widget shown in place of another at other times opens straight to its own settings",
+      "Each copy of a widget has its own settings. A new copy starts with the first one’s settings; removing a spare copy drops its settings; removing the last one keeps them for next time"
+    ]
+  },
+  {
+    "version": "2026.11.76",
+    "date": "2026-11-13",
+    "notes": [
+      "Child points widgets, rearranged for at-a-glance: name, reminders, points with the Cash in button beside them, three next tasks, this morning – then the progress bar and penalty buttons at the bottom. Drag up and down to scroll if there’s more"
+    ]
+  },
+  {
+    "version": "2026.11.75",
+    "date": "2026-11-13",
+    "notes": [
+      "The screen gets itself going again: if the Sheet hasn’t answered for 10 minutes and nobody is using it, it reloads itself (then after 20, 40 and every 60 minutes if still stuck) – only when it can load its own page, so it never ends up on a “no internet” page",
+      "Today & tomorrow: days on the left (Today above Tomorrow), the weekend on the right; with only two, side by side",
+      "Setup → Screen layout: a widget split by “When to show” is all you need – click either half for its settings; the hidden copy that holds the other widget’s settings isn’t listed any more",
+      "Setup → Screen layout: a newly added widget shows “Adding…” and its standard settings straight away (no more “undefined”)",
+      "Flights overhead: if adsb.lol is busy (“said 429”) it uses airplanes.live instead, by itself",
+      "Setup → Connect this computer: the picture above the title shows again"
+    ]
+  },
+  {
+    "version": "2026.11.74",
+    "date": "2026-11-13",
+    "notes": [
+      "The screen’s “Try the Sheet again” button now says what happened: “Connected – the Sheet answered at 08:40”, or why it still can’t",
+      "When the screen can’t reach the Sheet it now tells you which kind of problem it is: this PC can’t reach the internet/Google at all, or Google answered with an error (the script stopped or needs approving)"
+    ]
+  },
+  {
+    "version": "2026.11.73",
+    "date": "2026-11-13",
+    "notes": [
+      "Children are now widgets: each child’s points card is a full-height widget you can put on any screen (four fit on one). Your points page has been turned into a screen of child widgets in the same place – move them about in Setup → Screen layout",
+      "A new child (Family & calendar → ⭐ Points) gets a widget of their own; renaming a child keeps theirs, and taking a child off points removes it (their points are kept)",
+      "Setup → Screen layout: no separate points screen to add any more – drag “Child (points)” from the widget list instead"
+    ]
+  },
+  {
+    "version": "2026.11.72",
+    "date": "2026-11-12",
+    "notes": [
+      "Setup → Screen layout: a 🗑 on each widget, and a bin to drag widgets onto, to remove them; removing (from there or the widget’s own box) happens straight away, and a “won’t fit” box disappears as soon as it’s empty"
+    ]
+  },
+  {
+    "version": "2026.11.71",
+    "date": "2026-11-12",
+    "notes": [
+      "Setup → Screen layout: widgets that don’t fit are shown underneath, ready to drag elsewhere or click to remove; calendar and points screens are drawn at the same size (without your data), and the points screen explains that extra screens are added for more children",
+      "Setup → Reconfigure opens each page on its own (no step list), with “Back to Setup”",
+      "The Family tab has a “Reconfigure the family” link – on the phone it points to Setup"
+    ]
+  },
+  {
+    "version": "2026.11.70",
+    "date": "2026-11-12",
+    "notes": [
+      "Connect by code: after sending, Family Admin checks the screen or computer actually picked it up, and says so – or tells you to check the code"
+    ]
+  },
+  {
+    "version": "2026.11.69",
+    "date": "2026-11-12",
+    "notes": [
+      "Setup website: tabs along the top – First-time setup, Screen layout, Reconfigure, Settings, then Family, Notes, Lists and Widgets. A computer that isn’t connected yet gets a choice: first-time setup, or connect this computer",
+      "The licence email and setup explain in plain English how it works (your data stays in your own Google account, reached only with your private access code) and what each step does, including what an API key is",
+      "Family Admin is described as for adults"
+    ]
+  },
+  {
+    "version": "2026.11.68",
+    "date": "2026-11-12",
+    "notes": [
+      "Notes: up to 6, shown two at a time on the screen with “Page 1 of 3”, turning by themselves every 8 seconds (tap the page number to turn now)",
+      "Family Admin: the Memos tab is now Notes, showing the notes as they look on the screen, with a box to add one underneath"
+    ]
+  },
+  {
+    "version": "2026.11.67",
+    "date": "2026-11-12",
+    "notes": [
+      "The Google script now checks GitHub for a newer version itself every few minutes, the same way as the “Update now” button, and the Updates page shows when it last checked and what happened",
+      "The screen retries a script update quietly every 3 minutes, instead of asking you to update by hand",
+      "Family Admin → Widgets: hidden widgets are listed too, and a “Not in use” section has the settings of every widget that isn’t on a screen. Removing a widget keeps its settings; adding it again brings them back"
+    ]
+  },
+  {
+    "version": "2026.11.66",
+    "date": "2026-11-12",
+    "notes": [
+      "Family Admin: Settings → Updates is back on the phone, with “Update the Google script now” if it hasn’t updated itself"
+    ]
+  },
+  {
+    "version": "2026.11.65",
+    "date": "2026-11-12",
+    "notes": [
+      "Family Admin: separate Memos and Lists tabs, and the Other tab is now called Widgets"
+    ]
+  },
+  {
+    "version": "2026.11.64",
+    "date": "2026-11-12",
+    "notes": [
+      "The website for computers is now called Setup, at one address – russm1981.github.io/family-apps/setup – with first-time setup, every step-by-step guide, the screen layout and the rarer settings. Old links (licence emails, the Sheet’s menu, …/settings) still work"
+    ]
+  },
+  {
+    "version": "2026.11.63",
+    "date": "2026-11-12",
+    "notes": [
+      "Settings website: a drag-and-drop screen layout editor – screens down the left (add widget, calendar or points screens), widgets to drag in on the right, and a preview as on the Corsair, a tablet or a computer. Widgets with “When to show” are drawn split diagonally with their times",
+      "Settings website: a Setup & tools tab with every guided step (family & calendar, connecting devices, keys, licence, check everything, updates, starting again)",
+      "The home page shows the three places: the dashboard, Family Admin (phone) and the settings website (computer)"
+    ]
+  },
+  {
+    "version": "2026.11.62",
+    "date": "2026-11-12",
+    "notes": [
+      "Family Admin on the phone is for everyday use: points, lists, notes, the calendar and each widget’s everyday settings. The screen layout and rare settings (family & calendar set-up, places, API keys, updates, your Google data, diagnostics) are on the new settings website for a computer: russm1981.github.io/family-apps/settings"
+    ]
+  },
+  {
+    "version": "2026.11.61",
+    "date": "2026-11-12",
+    "notes": [
+      "Tablets connect with a short address and a code typed on the computer – no long link to scan; setup’s QR codes are bigger and easier to scan",
+      "When to show: picking a widget for other times adds a hidden one to hold its settings if there isn’t one, and it can’t be removed while it’s in use; the list says which is which",
+      "Adding a widget shows straight away in Family Admin"
+    ]
+  },
+  {
+    "version": "2026.11.60",
+    "date": "2026-11-12",
+    "notes": [
+      "Setup: after Deploy, copy the Web app URL and paste it into the setup page to connect – no Sheet menu needed"
+    ]
+  },
+  {
+    "version": "2026.11.59",
+    "date": "2026-11-12",
+    "notes": [
+      "Setup and help: what to do if Deploy just spins or Google keeps asking for permission"
+    ]
+  },
+  {
+    "version": "2026.11.58",
+    "date": "2026-11-12",
+    "notes": [
+      "Family Admin: moving widgets and pages happens instantly, and saved changes show straight away while they’re saved in the background – several quick taps are all kept, in order",
+      "Changes to the screen layout save much faster",
+      "When to show: times are picked from a list (no colon needed)"
+    ]
+  },
+  {
+    "version": "2026.11.57",
+    "date": "2026-11-12",
+    "notes": [
+      "New Sheets: the Family Dashboard menu has “▶ Set up & connect my screen and phones” straight away (loader 1.2), and setup explains what to do if the menu only says “Load the dashboard program”"
+    ]
+  },
+  {
+    "version": "2026.11.56",
+    "date": "2026-11-12",
+    "notes": [
+      "Fixes from a full review: QR codes in setup and on the home page no longer depend on an outside website",
+      "Today & tomorrow on a tablet: the weekend list is one column so names aren’t cut short; a repeating event on Saturday and Sunday shows on both days",
+      "When to show: times are checked properly (24-hour clock, 24:00 for midnight)"
+    ]
+  },
+  {
+    "version": "2026.11.55",
+    "date": "2026-11-12",
+    "notes": [
+      "When to show: the widget shown at other times has to be the same height (half with half, full with full)"
+    ]
+  },
+  {
+    "version": "2026.11.54",
+    "date": "2026-11-12",
+    "notes": [
+      "Any widget can show only on certain days and times, with another widget in its space the rest of the time (Family Admin → Screen → the widget → When to show)",
+      "Trains: disruption messages only about your route, all of them, or off",
+      "Today & tomorrow: something on both days of the weekend is labelled ALL"
+    ]
+  },
+  {
+    "version": "2026.11.53",
+    "date": "2026-11-12",
+    "notes": [
+      "Today & tomorrow: the weekend is grouped under one heading with each entry’s day – “This weekend” Monday to Thursday, in place of tomorrow on Fridays, and “Next weekend” on Saturdays and Sundays"
+    ]
+  },
+  {
+    "version": "2026.11.52",
+    "date": "2026-11-12",
+    "notes": [
+      "Family Calendar and Family Admin say clearly when a licence key is needed, with a box to type it in, instead of just not loading"
+    ]
+  },
+  {
+    "version": "2026.11.51",
+    "date": "2026-11-12",
+    "notes": [
+      "Today & tomorrow: up to 3 things a day, with the coming weekend’s Saturday and Sunday underneath",
+      "Setup is clearer for a new family: an overview of the steps, every click spelled out, its own licence key step, and a warning if it’s opened on a phone",
+      "The licence email explains exactly what to do and opens setup with the key already in it",
+      "The screen’s “Add your licence key” page lets you type the key in on the screen itself"
+    ]
+  },
+  {
+    "version": "2026.11.50",
+    "date": "2026-11-10",
+    "notes": [
+      "Every app shows which family it’s connected to and can be disconnected: Family Calendar (⚙ next to Today), Family Admin (Settings → Devices → This phone), the screen (Status page), the setup app and the home page"
+    ]
+  },
+  {
+    "version": "2026.11.49",
+    "date": "2026-11-10",
+    "notes": [
+      "Connecting a screen from a phone now says whose dashboard it will show and asks “Is this screen in your home?” – with “No – it’s someone else’s screen” leading to their own setup",
+      "Screen status page: “Disconnect this screen”",
+      "A copy of someone else’s dashboard Sheet is emptied automatically before anything is shown; Sheet menu “Clear everything and start from scratch”",
+      "Google script 2026.11.36"
+    ]
+  },
+  {
+    "version": "2026.11.48",
+    "date": "2026-11-09",
+    "notes": [
+      "Bins simplified: one place to set them up (Set up bin days); the settings only hold the reminder time; the council is shown plainly with “Not right?” instead of a long list; by hand (with the AI helper) is the clear next step when a council can’t be read",
+      "Google script 2026.11.35"
+    ]
+  },
+  {
+    "version": "2026.11.47",
+    "date": "2026-11-09",
+    "notes": [
+      "Bins by hand: “Let an AI assistant look it up” – a ready-written request (with your postcode, house and council) to copy into ChatGPT, Claude or Gemini; paste its answer back and your bins are filled in"
+    ]
+  },
+  {
+    "version": "2026.11.46",
+    "date": "2026-11-09",
+    "notes": [
+      "Bins: Dorset Council can now be read automatically (13 councils)",
+      "Google script 2026.11.34"
+    ]
+  },
+  {
+    "version": "2026.11.45",
+    "date": "2026-11-09",
+    "notes": [
+      "Bins: “Set up bin days” in Family Admin – postcode → your council (change it if wrong) → read automatically where we can (12 councils so far, more being added), otherwise a simple form to enter your bins by hand, with a preview",
+      "Diagnostics: when a widget (or setting up bin days) fails, the report now includes what was asked of the outside service and what came back – in the locked part",
+      "Google script 2026.11.33"
+    ]
+  },
+  {
+    "version": "2026.11.44",
+    "date": "2026-11-09",
+    "notes": [
+      "Family Admin and Family Calendar on a computer: connect by typing the code they show into your phone (Family Admin → Settings → Devices → Connect by code), or scan their QR code – no links to copy; if the browser already has another app connected, one tap uses the same family",
+      "Home page: “Connect this browser” the same way – it then shows your own links and settings"
+    ]
+  },
+  {
+    "version": "2026.11.43",
+    "date": "2026-11-09",
+    "notes": [
+      "Calendar Year view is now a wall planner: a row for each month (all 12 when there’s room), lined up by weekday or not – the same setting as the 3-month views",
+      "Calendar key: along the bottom on a tablet (except Month view, where it stays on the right), and small along the bottom in Year view on a computer; the Corsair is unchanged",
+      "Tablets and computers no longer use the dashboard’s sleep screen – the tablet’s power button or the computer’s own settings do that; the Corsair keeps it",
+      "Tablets: the first tap makes the dashboard full screen; it can also be added to the home screen and opens full screen from there"
+    ]
+  },
+  {
+    "version": "2026.11.42",
+    "date": "2026-11-09",
+    "notes": [
+      "Tablet: side bar shows icons only, with 1 and 2 on pages split in two; a proper calendar icon showing today’s date",
+      "Tablet calendar: the key runs along the bottom and the month names take less room, so the days get the full width",
+      "Tablet children’s page: each child’s card scrolls when there’s more than fits (the morning list was cut off)",
+      "Browser tab says “Family Dashboard”"
+    ]
+  },
+  {
+    "version": "2026.11.41",
+    "date": "2026-11-09",
+    "notes": [
+      "Family Admin → Family: the calendar and family tiles come first, then the points cards – each child now has its own “Set up points” link"
+    ]
+  },
+  {
+    "version": "2026.11.40",
+    "date": "2026-11-09",
+    "notes": [
+      "Family Admin → Settings → System → Licence shows your whole licence key once it’s been entered, with a Copy button",
+      "Google script 2026.11.32"
+    ]
+  },
+  {
+    "version": "2026.11.39",
+    "date": "2026-11-09",
+    "notes": [
+      "Setup is simpler: no Apps Script API switch – publish once with Deploy → New deployment, and the script keeps itself up to date",
+      "Fewer Google permissions: the script no longer asks to manage Apps Script projects and deployments",
+      "Google script 2026.11.31"
+    ]
+  },
+  {
+    "version": "2026.11.38",
+    "date": "2026-11-09",
+    "notes": [
+      "Google script and licence server now run through a small loader that fetches the newest program each time: updates arrive within 5 minutes with no Apps Script API, no Google Cloud project and no saved versions used. Paste Loader.gs in once.",
+      "Google script 2026.11.30 · licence server 2026.11.12"
+    ]
+  },
+  {
+    "version": "2026.11.37",
+    "date": "2026-11-09",
+    "notes": [
+      "Automatic updates: when Google’s Apps Script API is off in a script’s own Google Cloud project, the message now gives the project and a direct link to switch it on (the apps show an “Enable” button)",
+      "Licence server 2026.11.11: clears old “update failed” notes once it’s up to date"
+    ]
+  },
+  {
+    "version": "2026.11.36",
+    "date": "2026-11-09",
+    "notes": [
+      "Children’s page: 3 children a screen everywhere – on a tablet each child’s card is stacked (thinner and taller) and fills the screen; more children get more buttons (Boys 1, Boys 2)"
+    ]
+  },
+  {
+    "version": "2026.11.35",
+    "date": "2026-11-09",
+    "notes": [
+      "Tablets: each widget page with more than two columns gets two buttons in the side bar (e.g. Home 1, Home 2) instead of swiping and turning over by itself",
+      "Children’s page: 3 children a screen on the Corsair and computers, 2 on a tablet, with as many buttons as needed (Boys 1, Boys 2…); on a tablet it now fills the screen's height"
+    ]
+  },
+  {
+    "version": "2026.11.34",
+    "date": "2026-11-09",
+    "notes": [
+      "Family Admin tabs: Family (points with your controls, calendar, today & tomorrow, holidays) · Lists · Other (information first: bins, weather, trains, buses, traffic) · Screen (where widgets go and how tall) · Settings",
+      "Each widget’s settings are on its own page; the Screen tab is only for layout – one layout for the Corsair, tablets and computers",
+      "Phone apps left open check for updates (on opening, when brought back to the front, and every 15 minutes) and restart themselves – or show “Update ready – Restart” if you’re in the middle of something",
+      "Google script 2026.11.29: when it can’t update itself, it says which Google account and which switch is the problem"
+    ]
+  },
+  {
+    "version": "2026.11.33",
+    "date": "2026-11-08",
+    "notes": [
+      "Family Admin settings reorganised: Family & calendar · Locations & home · External data (API) keys · System · My data (Google) · Devices · About & diagnostics · Help",
+      "Devices: add another person’s phone with a QR code (Calendar or Admin), add another screen by its code, disconnect this phone",
+      "My data (Google): go through setup again with everything filled in, start afresh, start from scratch, move to another Google account, access code",
+      "Bins work anywhere in the UK: from your council where connected, your council’s calendar (iCal) link, or a repeating schedule – with a clear message if your council isn’t connected",
+      "Licence portal at …/family-apps/licencing/",
+      "Google script 2026.11.28: UK-wide bins"
+    ]
+  },
+  {
+    "version": "2026.11.32",
+    "date": "2026-11-08",
+    "notes": [
+      "iPhone: the Calendar and Admin apps explain how to add them to the Home Screen (Share → Add to Home Screen), and the installed app arrives already connected"
+    ]
+  },
+  {
+    "version": "2026.11.31",
+    "date": "2026-11-08",
+    "notes": [
+      "Computer browsers show the Corsair layout at its own shape, scaled to fit the window",
+      "Calendar: new Year view – the whole year using the full window on a computer, six months on a tablet",
+      "Status page (tap the version number): shows any update waiting, when “Later” asks again, and Update now / Update the Google script now / Turn automatic updates on buttons",
+      "“Later” on the update banner now asks again after an hour",
+      "Windows start file now updates itself: it fetches the latest launcher each time it starts",
+      "Google script 2026.11.27: switches automatic updates on (unless someone turned them off on purpose); new families start with a blank home address",
+      "Licence server 2026.11.10: a missing portal page is put back by “Update the licence server now”"
+    ]
+  },
+  {
+    "version": "2026.11.30",
+    "date": "2026-11-08",
+    "notes": [
+      "New screens (Raspberry Pi, tablet) show a QR code to connect them from a phone – no keyboard needed; new families are taken through setup first",
+      "Family Admin → Settings → Access code & devices → Connect a screen, by its code",
+      "Windows start file asks two questions in normal Windows Yes/No boxes: start automatically, and keep the screen switched on",
+      "Raspberry Pi set-up script, and help for Raspberry Pi and tablets"
+    ]
+  },
+  {
+    "version": "2026.11.29",
+    "date": "2026-11-08",
+    "notes": [
+      "Tablets and computers: a two-column layout (swipe for the other two); other screen shapes get a warning and an orange dot",
+      "Licences can cover more than one screen; a new screen can take over from an old one (phones don’t count)",
+      "Move the whole dashboard to a different Google account in a few steps",
+      "Status page on the screen: QR codes for the phone apps, a tablet screen and the home page",
+      "Voice: keeps listening through short pauses, with a Done button",
+      "Simpler setup: the Sheet menu publishes the dashboard by itself; the licence key comes from the order email’s link; the PC start file starts with Windows and keeps the display on without asking"
+    ]
+  },
+  {
+    "version": "2026.11.28",
+    "date": "2026-11-08",
+    "notes": [
+      "New help pages, written in plain English, with step-by-step fixes",
+      "Front page: three clear choices – first-time setup, connect a device, or start again",
+      "Licence: “Free up my licence key” for starting again from scratch",
+      "A page with the full history of changes"
+    ]
+  },
+  {
+    "version": "2026.11.27",
+    "date": "2026-11-08",
+    "notes": [
+      "Screen: the dot by the microphone is green (all fine), orange (something needs a look) or red (no connection)",
+      "Screen: tap the version number for a status page – problems, every widget, versions, a full check and a diagnostics report",
+      "The “Google script needs updating” message now changes to “updated” by itself"
+    ]
+  },
+  {
+    "version": "2026.11.26",
+    "date": "2026-11-08",
+    "notes": [
+      "The Google scripts and the screen check for updates every 5 minutes"
+    ]
+  },
+  {
+    "version": "2026.11.25",
+    "date": "2026-11-08",
+    "notes": [
+      "Family Admin → Settings → Versions & diagnostics: every version number in one place",
+      "Diagnostics report, with private details encrypted so only support can read them"
+    ]
+  },
+  {
+    "version": "2026.11.24",
+    "date": "2026-11-08",
+    "notes": [
+      "Start afresh: move everything to a brand-new Google Sheet in one go",
+      "Counter for Google’s 200 saved versions, with a warning from 190",
+      "Automatic updates are on by default for new dashboards"
+    ]
+  },
+  {
+    "version": "2026.11.23",
+    "date": "2026-11-08",
+    "notes": [
+      "Weather (half height): the clock leads, then the weather, then the symbol and temperature",
+      "Trains: a disruption message no longer crowds the board",
+      "The licence server updates itself too"
+    ]
+  },
+  {
+    "version": "2026.11.22",
+    "date": "2026-11-08",
+    "notes": [
+      "Screen: a clear warning when it can’t get new information, saying why",
+      "Word of the day: French, or “Same as Duolingo”"
+    ]
+  },
+  {
+    "version": "2026.11.21",
+    "date": "2026-11-08",
+    "notes": [
+      "Family Admin reorganised: a Home page with everything on it, a page for each widget, all API keys in one place, family editable in the app",
+      "Licence keys, with a 14-day free trial",
+      "Updated privacy notice"
+    ]
+  },
+  {
+    "version": "2026.11.20",
+    "date": "2026-11-07",
+    "notes": [
+      "To-do: ticked tasks stay, crossed out, with a “Show done” switch",
+      "Choose which children are on the points page, one by one"
+    ]
+  },
+  {
+    "version": "2026.11.19",
+    "date": "2026-11-07",
+    "notes": [
+      "Sleep screen after 30 minutes, and night hours",
+      "The Google script can update itself",
+      "To-do: priority stars",
+      "Half-height weather: now, then every 2 hours"
+    ]
+  },
+  {
+    "version": "Earlier in November",
+    "date": "2026-11",
+    "notes": [
+      "Voice commands and an on-screen keyboard",
+      "New Home page layout, half and full-height weather and traffic",
+      "Calendar: “3 months (scroll)” view, weekends lined up, delete entries from the screen and the phone app",
+      "Planes: light map with towns and roads; airlines-only switch",
+      "Kitchen timer chime, quick buttons 3–30 minutes",
+      "Traffic: tap a route to zoom in",
+      "Calmer train board; holiday countdown title",
+      "Screen updates itself, with its version number at the bottom of the side bar",
+      "One front page for everything"
+    ]
+  }
+]

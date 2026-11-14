@@ -1,0 +1,237 @@
+/* The settings website on a computer: the phone app's pages, wider. */
+/* One width for the whole website: the title bar and every page line up, and use the screen up to --deskw (narrower screens: all of it) */
+body.desk { --deskw: 1600px; }
+body.desk .main { max-width: var(--deskw); margin: 0 auto; width: 100%; box-sizing: border-box; padding-left: clamp(14px, 2vw, 28px); padding-right: clamp(14px, 2vw, 28px); }
+body.desk .top-row { max-width: var(--deskw); margin: 0 auto; padding-left: clamp(14px, 2vw, 28px); padding-right: clamp(14px, 2vw, 28px); box-sizing: border-box; }
+body.desk #app { display: flex; flex-direction: column; }
+body.desk .top { order: 0; } body.desk .tabbar { order: 1; } body.desk .main { order: 2; padding-bottom: 40px; }
+body.desk .tabbar { position: sticky; top: 61px; left: auto; right: auto; bottom: auto; transform: none; width: 100%; border-radius: 0; border-top: 0; border-bottom: 1px solid var(--line); justify-content: center; padding-bottom: 0; }
+body.desk .tabbar button { flex: 0 1 140px; }
+body.desk .tabbar button { flex-direction: row; justify-content: center; gap: 8px; font-size: 14px; padding: 12px 0; }
+body.desk .tabbar button i { font-size: 18px; }
+body.desk .sheet-bg { align-items: center; justify-content: center; }
+body.desk .sheet { max-width: 620px; border-radius: 18px; max-height: 88vh; }
+
+.desk-welcome { max-width: 860px; margin: 0 auto; padding: 40px 16px; }
+.desk-welcome h1 { font-size: 28px; margin: 0 0 20px; }
+.dw-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 18px; }
+.dw-card { display: flex; flex-direction: column; gap: 8px; padding: 22px; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); color: var(--text); text-decoration: none; }
+.dw-card.first { border-color: var(--acc); }
+.dw-card span { font-size: 34px; } .dw-card b { font-size: 19px; } .dw-card small { color: var(--mute); font-size: 14px; line-height: 1.45; flex: 1; }
+.dw-card i { font-style: normal; align-self: flex-start; margin-top: 6px; }
+.dw-card:hover { border-color: var(--acc); }
+body.desk .tabbar button { font-size: 13px; }
+
+/* The widget box: how it appears on the left, its own settings on the right */
+body.desk .sheet.wide { max-width: 1200px; width: 94vw; }
+.ws-cols { display: grid; gap: 14px; margin-top: 14px; }
+body.desk .ws-cols { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 26px; align-items: start; }
+body.desk .ws-cols.one { grid-template-columns: minmax(0, 1fr); }
+@media (max-width: 760px) { body.desk .ws-cols { grid-template-columns: minmax(0, 1fr); } }
+.ws-h { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--mute, #8b95a5); margin: 4px 0 8px; }
+body.desk .ws-place { padding-right: 26px; border-right: 1px solid var(--line, #2a303b); }
+.ws-place #wDel { margin-top: 14px; }
+.ws-note { background: rgba(251,191,36,.12); border: 1px solid rgba(251,191,36,.4); border-radius: 10px; padding: 8px 12px; font-size: .9rem; }
+
+/* Tabs in two groups: setting up, then everyday */
+.tabbar .tab-grp { align-self: center; font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--mute, #8b95a5); padding: 0 4px 0 10px; white-space: nowrap; }
+.tabbar .tab-sep { align-self: stretch; width: 1px; margin: 8px 10px; background: var(--line, #2a303b); }
+/* Family tab: the children side by side, everything showing */
+body.desk .boys-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; align-items: start; }
+body.desk .boys-row .card { margin: 0; }
+body.desk .fam-tiles { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+/* Lists of morning to-dos and reminders: one line each on a computer */
+body.desk .lrow, body.desk .lhead { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 8px; padding: 4px 44px 4px 8px; margin-bottom: 4px; border-radius: 10px; }
+body.desk .lhead { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--mute, #8b95a5); padding-top: 0; padding-bottom: 0; background: none; border: 0; }
+body.desk .lhead small { text-transform: none; letter-spacing: 0; opacity: .8; }
+body.desk .lrow .lc label { display: none; }
+body.desk .lrow input { padding: 7px 10px; min-height: 0; height: 36px; font-size: .92rem; margin: 0; }
+body.desk .lrow .x { top: 50%; transform: translateY(-50%); width: 28px; height: 28px; }
+
+/* Explainers at the top of each set-up page */
+.card.explain { background: rgba(63,169,245,.07); border-color: rgba(63,169,245,.35); }
+.card.explain summary { cursor: pointer; list-style: none; }
+.card.explain summary::-webkit-details-marker { display: none; }
+.card.explain p, .card.explain li { font-size: .92rem; line-height: 1.5; }
+.card.explain ul { padding-left: 1.2em; margin: 6px 0 0; }
+/* Rewards: changing points by hand */
+.adj-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line, #2a303b); flex-wrap: wrap; }
+.adj-row:last-child { border-bottom: 0; }
+.adj-row .dot { width: 12px; height: 12px; border-radius: 50%; }
+.adj-row .adj-bal { flex: 1; color: var(--mute, #8b95a5); }
+/* Help and the calendar, inside the website */
+.frame-bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 8px; }
+.desk-frame { width: 100%; height: calc(100vh - 190px); min-height: 520px; border: 1px solid var(--line, #2a303b); border-radius: 14px; background: #0b0d12; }
+
+
+/* Family: one line per person */
+.fp-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.fp-row input[type=color] { width: 44px; height: 40px; padding: 3px; flex: none; }
+.fp-row input[data-fn] { flex: 1; max-width: 280px; }
+.fp-row .ptb { flex: none; }
+
+/* Pages with a menu down the left (Rewards, Advanced) */
+
+.pane { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 22px; align-items: start; }
+.pane-nav { position: sticky; top: 120px; display: flex; flex-direction: column; gap: 2px; background: var(--panel, #12161d); border: 1px solid var(--line, #2a303b); border-radius: 14px; padding: 8px; }
+.pn { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 10px; color: inherit; text-decoration: none; }
+.pn:hover { background: rgba(255,255,255,.05); }
+.pn.on { background: rgba(63,169,245,.16); box-shadow: inset 3px 0 0 #3fa9f5; }
+.pn-i { width: 22px; text-align: center; flex: none; }
+.pn-t { display: flex; flex-direction: column; min-width: 0; } .pn-t small { color: var(--mute, #8b95a5); font-size: .74rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pn-h { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--mute, #8b95a5); padding: 10px 10px 2px; }
+.pane-body { min-width: 0; }
+.pane-h { margin: 2px 0 4px; font-size: 1.3rem; } .pane-what { margin: 0 0 12px; font-size: .92rem; }
+
+body.desk .lrow.l-todos, body.desk .lhead.l-todos { grid-auto-flow: row; grid-template-columns: 34px minmax(0, 1.3fr) minmax(0, .9fr) minmax(0, 1.6fr); align-items: center; }
+body.desk .lrow.l-timetable, body.desk .lhead.l-timetable { grid-auto-flow: row; grid-template-columns: minmax(0, 1.1fr) minmax(0, .8fr) minmax(0, 2fr); align-items: center; }
+body.desk .lrow select { height: 36px; padding: 4px 8px; margin: 0; font-size: .92rem; }
+body.desk .lrow .rpick { flex-direction: row; align-items: center; flex-wrap: wrap; }
+body.desk .lrow .dp-day { min-width: 32px; height: 30px; }
+
+/* The configurator's title, with the page underneath */
+body.desk #title { display: flex; flex-direction: column; line-height: 1.15; }
+body.desk #title .title-page { font-size: .8rem; font-weight: 600; color: var(--mute, #8b95a5); }
+/* Home */
+.hm-new { background: rgba(74,222,128,.08); border-color: rgba(74,222,128,.4); }
+.hm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-top: 8px; }
+.hm-btn { display: grid; grid-template-columns: 30px 1fr; gap: 2px 8px; padding: 12px; border: 1px solid var(--line, #2a303b); border-radius: 12px; color: inherit; text-decoration: none; background: rgba(255,255,255,.02); }
+.hm-btn:hover { border-color: #3fa9f5; }
+.hm-btn span { grid-row: 1 / 3; font-size: 20px; } .hm-btn small { color: var(--mute, #8b95a5); font-size: .8rem; }
+body.desk .lrow .opick { flex-direction: row; align-items: center; flex-wrap: wrap; }
+body.desk .lrow.l-todos, body.desk .lhead.l-todos { grid-template-columns: 34px minmax(0, 1.2fr) minmax(0, .8fr) minmax(0, 2fr); }
+
+/* ===================== Type and spacing on the website: one clear hierarchy =====================
+ * 1. the page's heading (28px)  2. a card's heading (20px)  3. a section label (13px capitals)  · body text 16px · small print 14px+ */
+body.desk { font-size: 16px; }
+body.desk .page-h, body.desk .pane-h { font-size: 28px; font-weight: 800; letter-spacing: -.01em; line-height: 1.2; margin: 4px 0 18px; }
+body.desk .pane-h { margin-bottom: 6px; }
+body.desk .pane-what { font-size: 15.5px; line-height: 1.55; margin: 0 0 18px; max-width: 1100px; }
+body.desk .card { padding: 20px 22px; margin-bottom: 18px; border-radius: 16px; }
+body.desk .card > h2, body.desk .card.explain summary b { font-size: 20px; font-weight: 750; line-height: 1.25; margin: 0 0 12px; display: block; }
+body.desk .card p, body.desk .card li { font-size: 16px; line-height: 1.55; }
+body.desk .small, body.desk .card p.small, body.desk .card li.small, body.desk .card ul.small li { font-size: 15px; line-height: 1.55; }
+body.desk .mute.small, body.desk p.mute.small, body.desk .help { font-size: 14.5px; line-height: 1.5; }
+body.desk .sec { font-size: 13px; margin: 28px 2px 12px; }
+body.desk label { font-size: 15px; }
+body.desk .cnt { font-size: 12.5px; }
+body.desk ul.pvl { font-size: 15.5px; } body.desk ul.pvl li { margin: 8px 0; }
+body.desk .tile b { font-size: 16.5px; } body.desk .tile small { font-size: 14px; }
+body.desk .mrow b { font-size: 16.5px; } body.desk .mrow small { font-size: 14px; }
+body.desk .setup-link b { font-size: 16.5px; } body.desk .setup-link span { font-size: 14px; }
+body.desk .link-card b { font-size: 17px; } body.desk .link-card span { font-size: 14.5px; }
+body.desk .hm-btn b { font-size: 16.5px; } body.desk .hm-btn small { font-size: 14px; }
+body.desk .lhead { font-size: 12.5px; }
+body.desk .pn-t b { font-size: 15.5px; } body.desk .pn-t small { font-size: 12.5px; } body.desk .pn-h { font-size: 11.5px; }
+body.desk .tabbar .tab-grp { font-size: 11px; }
+body.desk .banner { font-size: 15px; }
+body.desk .ws-h { font-size: 13px; }
+body.desk details.adv summary { font-size: 15.5px; }
+/* Software updates: one row per part */
+.up-row { display: grid; grid-template-columns: 28px 1fr auto; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line, #2a303b); }
+.up-row:last-of-type { border-bottom: 0; }
+.up-ok { font-size: 20px; font-weight: 800; text-align: center; }
+.up-t b { display: block; font-size: 16px; } .up-t small, .up-v small { display: block; color: var(--mute, #8b95a5); font-size: 13.5px; }
+.up-v { text-align: right; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+/* Links in text, and paragraphs with room between them */
+body.desk .card a:not(.btn):not(.mrow):not(.tile):not(.hm-btn):not(.setup-link):not(.link-card), body.desk .help a, body.desk .ws-note a, body.desk .cs-card a { color: #3fa9f5; text-decoration: none; font-weight: 650; }
+body.desk .card a:not(.btn):not(.mrow):not(.tile):not(.hm-btn):not(.setup-link):not(.link-card):hover { text-decoration: underline; }
+body.desk .card p { margin: 0 0 10px; } body.desk .card p:last-child { margin-bottom: 0; }
+/* The tab bar fits the width: tabs only as wide as their names */
+body.desk .tabbar { justify-content: center; flex-wrap: nowrap; overflow-x: auto; gap: 2px; padding: 0 10px; }
+body.desk .tabbar button { flex: none; padding: 12px 12px; white-space: nowrap; }
+
+/* Title: room for the descenders (y, g); Help by the title */
+body.desk .top h1 { line-height: 1.35; padding-bottom: 2px; }
+body.desk .hdr-help { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; margin-right: 10px; border: 1px solid var(--line, #2a303b); border-radius: 999px; color: inherit; text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; }
+body.desk .hdr-help:hover, body.desk .hdr-help.on { border-color: #3fa9f5; color: #3fa9f5; }
+/* Home: the second green box is one big link */
+.hm-go { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center; color: inherit; text-decoration: none; }
+.hm-go span { grid-column: 1; font-size: 14px; color: var(--mute, #8b95a5); }
+.hm-go i { grid-column: 2; grid-row: 1 / 3; font-style: normal; font-size: 26px; color: #4ade80; }
+.hm-go:hover { border-color: #4ade80; }
+
+/* The tab bar lines up with the title bar too */
+body.desk .tabbar { box-sizing: border-box; }
+/* Family: a small Add button straight under the list, then the notes, then Save */
+.fp-add { width: auto !important; padding-left: 18px; padding-right: 18px; margin-top: 6px; }
+.fp-notes { margin-top: 22px; }
+.fp-notes p { margin: 0 0 6px; }
+
+/* Breathing room in explanations: paragraphs and bullets spaced out */
+body.desk .card p { line-height: 1.6; margin: 0 0 14px; }
+body.desk .card p:last-child { margin-bottom: 0; }
+body.desk .card ul, body.desk .card ol { margin: 6px 0 14px; padding-left: 22px; }
+body.desk .card li { line-height: 1.6; margin-bottom: 12px; }
+body.desk .card li:last-child { margin-bottom: 0; }
+body.desk .card.explain summary { margin-bottom: 14px; }
+
+/* To-do and reminder rows: one line each (no "school days" note), a little taller, with more space between */
+body.desk .lrow .dp-say { display: none; }
+body.desk .lrow .opick, body.desk .lrow .rpick { flex-wrap: nowrap; gap: 10px; }
+body.desk .lrow .opick select, body.desk .lrow .rpick select { flex: none; width: auto; min-width: 150px; }
+body.desk .lrow .dpick { flex-wrap: nowrap; }
+/* (row spacing: see the house style block at the end) */
+body.desk .card li { margin-bottom: 14px; } body.desk .card ul, body.desk .card ol { margin-top: 10px; }
+.hm-h { margin-top: 30px; }
+
+/* House style (the Family page): section headings between boxes are big and clear, not small capitals */
+body.desk .sec { font-size: 20px; font-weight: 750; text-transform: none; letter-spacing: 0; color: var(--text, #f2f4f7); margin: 32px 2px 14px; }
+body.desk .sec:first-child, body.desk .page-h + .sec { margin-top: 8px; }
+body.desk .sec a, body.desk .sec button { font-size: 15px; font-weight: 600; }
+
+/* Widget settings (Screens → click a widget): the Family page house style – big title, each part in its own box with a big heading, roomy spacing */
+body.desk .sheet.wide { padding: 26px 30px 24px; }
+body.desk .sheet.wide > h2 { font-size: 28px; font-weight: 800; letter-spacing: -.01em; margin: 6px 0 8px; }
+body.desk .sheet.wide > p.mute.small { font-size: 16px; margin: 0 0 6px; }
+body.desk .ws-cols { gap: 18px; margin-top: 18px; }
+body.desk .ws-place, body.desk .ws-set { background: var(--panel-2, #1c2028); border: 1px solid var(--line, #2a2f38); border-radius: 16px; padding: 20px 22px; }
+body.desk .ws-cols > .ws-place { border-right: 1px solid var(--line, #2a2f38); padding-right: 22px; }
+body.desk .ws-h { font-size: 20px; font-weight: 750; text-transform: none; letter-spacing: 0; color: var(--text, #f2f4f7); margin: 0 0 14px; }
+body.desk .ws-place label, body.desk .ws-set label { margin-top: 14px; }
+body.desk .ws-place .tog, body.desk .ws-set .tog { margin: 16px 0 4px; }
+body.desk .sheet.wide .sheet-actions { margin-top: 22px; }
+
+/* Lists you add rows to (daily to-dos, reminders, penalties…) – the Family page style: plain rows, roomy inputs, ✕ at the end,
+ * "+ Add a …" under the rows, then Save (green) and Undo side by side */
+body.desk .lrows { margin-top: 4px; }
+body.desk .lrow { background: none; border: 0; border-radius: 0; padding: 0 44px 0 0; margin-bottom: 10px; }
+body.desk .lrow input, body.desk .lrow select { height: 44px; font-size: 16px; padding: 8px 12px; }
+body.desk .lrow .x { right: 4px; width: 32px; height: 32px; font-size: 17px; }
+body.desk .lhead { padding: 0 44px 6px 0; font-size: 13px; }
+body.desk .ladd-row { display: flex; gap: 10px; margin: 8px 0 0; }
+body.desk .ladd-row .btn { flex: none; margin: 0; }
+body.desk .rem-from { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line, #2a2f38); }
+
+/* Screen Sleep: a number with its unit, the two sleep-screen choices, from/to times */
+.ss-row { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+.ss-row input { width: 140px; margin: 0; }
+.ss-opts { display: flex; gap: 12px; flex-wrap: wrap; }
+.ss-opt { flex: 1; min-width: 200px; text-align: left; background: var(--panel-2, #1c2028); border: 2px solid var(--line, #2a2f38); border-radius: 14px; padding: 14px 16px; color: var(--text, #f2f4f7); cursor: pointer; font: inherit; }
+.ss-opt b { display: block; font-size: 16.5px; } .ss-opt small { color: var(--mute, #8b95a5); font-size: 14px; }
+.ss-opt.on { border-color: var(--acc, #3fa9f5); background: rgba(63,169,245,.12); }
+
+/* Shopping and to-do lists in the house style: a big heading (the list's name), a roomy add row, larger rows */
+body.desk .ls-add { margin: 4px 0 16px; } body.desk .ls-add input { height: 46px; font-size: 16px; } body.desk .ls-add .btn { margin: 0; height: 46px; }
+body.desk .ls-row { padding: 6px 0; } body.desk .ls-row .ls-t { font-size: 16.5px; }
+body.desk .ls-row .x { font-size: 17px; width: 32px; height: 32px; }
+
+/* ===================== House style, everywhere on the Configurator (from the Family page) =====================
+ * Page title 28px · box heading 20px · body text 16px · notes 14.5px grey · every box, input and button the same size
+ * Lists you add rows to (tasks, daily to-dos, reminders…) all look alike: plain rows 46px high, 10px apart, ✕ at the end */
+body.desk input:not([type=checkbox]):not([type=radio]):not([type=color]):not([type=range]):not([type=hidden]), body.desk select { height: 46px; font-size: 16px; }
+body.desk .btn { min-height: 46px; font-size: 16px; }
+body.desk .btn.sm { min-height: 38px; font-size: 14px; }
+body.desk .card p.small, body.desk .card li.small, body.desk .card ul.small li { font-size: 16px; }
+body.desk .card h3:not(.sec), body.desk .kc h3 { font-size: 20px; font-weight: 750; }
+body.desk .lrow, body.desk .tk-row { padding: 0 44px 0 0 !important; margin: 0 0 10px !important; min-height: 0; background: none; border: 0; position: relative; align-items: center; }
+body.desk .lrow input, body.desk .lrow select, body.desk .tk-row input, body.desk .tk-row select { height: 46px; font-size: 16px; padding: 8px 12px; margin: 0; }
+body.desk .lrow .x, body.desk .tk-row .x { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; font-size: 17px; color: var(--mute, #8b95a5); background: none; border: 0; }
+body.desk .lhead, body.desk .tk-head { padding: 0 44px 6px 0 !important; margin: 0 0 4px !important; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--mute, #8b95a5); }
+body.desk .tk-row { grid-template-columns: 34px minmax(0, 2.2fr) 90px minmax(0, 1fr) minmax(0, 1fr) 110px; }
+body.desk .tk-row .ptb { height: 46px; }
+body.desk .lrow .dp-day { height: 34px; min-width: 34px; }
+body.desk .ladd-row { margin-top: 14px; }
+body.desk .sheet-actions { margin-top: 22px; }
